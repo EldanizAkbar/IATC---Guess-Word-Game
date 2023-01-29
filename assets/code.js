@@ -11,6 +11,7 @@ function generateRandomWord() {
     "year",
     "keyboard",
     "fortune",
+    "monitor", "program", "application", "javascript", "gaming", "network"
   ];
   return words[Math.floor(Math.random() * words.length)];
 }
