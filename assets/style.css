@@ -1,0 +1,19 @@
+body {
+  background-color: black !important  ;
+}
+
+.text {
+  color: white;
+}
+
+.col-md-6{
+    border: 2px dotted white ;
+    height: auto;
+}
+.hang{
+  margin-bottom: 50px;
+
+}
+*{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

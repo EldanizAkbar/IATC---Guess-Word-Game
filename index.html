@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <script defer src="assets/code.js"></script>
+    <title>Guess Word Game</title>
+  </head>
+  <body>
+    <div class="container mt-5 text">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center hang w-100 display-1 mb-5">Hangman</h1>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center display-6">
+        <div class="col-12 col-md-6 text-center p-4">
+          <img
+            src="https://cdn.pixabay.com/photo/2018/01/08/21/19/ask-3070333_960_720.jpg"
+            alt="image"
+            class="w-100 h-100"
+            id="smg"
+          />
+          
+        </div>
+        <div class="col-12 col-md-6 text-center pb-5">
+          <p>Press any key to get started</p>
+          <div class="d-flex justify-content-center mb-4">
+            <p>Wins :</p>
+            <span class="ms-3" id="win">0</span>
+          </div>
+          <div class="d-flex justify-content-center mb-4">
+            <p>Losses :</p>
+            <span class="ms-3" id="lost">0</span>
+          </div>
+          <div class="mb-4">
+            <p>Current Word :</p>
+            <span id="word"></span>
+          </div>
+
+          <div
+            class="d-flex justify-content-center mb-4 align-items-xxl-start align-items-center"
+          >
+            <p>Number of Guesses remaining:</p>
+            <span class="ms-3" id="guesses_left">12</span>
+          </div>
+          <p>LETTERS ALREADY GUESTED :</p>
+          <span id="guesses_letters"></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
