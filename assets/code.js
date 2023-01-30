@@ -84,7 +84,7 @@ function ifWin() {
     wins++;
     guessesLeft = 12;
     document.getElementById("guesses_left").innerText = guessesLeft;
-    document.getElementById("win").innerText = losses;
+    document.getElementById("win").innerText = win;
     computerWord = generateRandomWord();
     createNewWord(computerWord);
     resetGuestedLetter();
